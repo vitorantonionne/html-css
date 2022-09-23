@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <p>Tente abrir esse site em varios dispositivos diferentes ou simplismente aumenta e diminui o tamanho do seu navegador</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="Imagens/Foto-g.png" alt="ImagemGrande">   
+    </picture>
+
+    <h1>Reproduzindo Audio</h1>
+    <p>Vamos aprender  a reproduzir audio em HTML5</p>
+    <audio src="midia/I Feel It All So Deeply - Bail Bonds.mp3" controls autoplay loop ></audio>
+    <audio preload="auto" controls  loop autoplay>
+        <source src="midia/Polymetric Juggling - DivKid.mp3" type="audio/mpeg">
+        <source src="midia/Polymetric Juggling - DivKid.ogg" type="audio/ogg">
+        <source src="midia/Polymetric Juggling - DivKid.wav" type="audio/wav">
+    </audio>
+</body>
+</html>

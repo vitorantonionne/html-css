@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste03</title>
+    <style>
+
+        /*
+
+        # = id    
+        . = class
+        : = pseudo-classe
+        :: = pseudo-elemento
+        > = children
+        
+        */
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: aqua;
+        }
+        div {
+            display: inline-block;
+            border: 1px solid black;
+            background-color: grey;
+            text-align: center;
+            width: 200px;
+            height: 200px;
+        }
+        div:hover {
+            background-color: blue;
+        }
+        div > p {
+            display: none;
+        }
+        div:hover > p {
+            display: block;
+            background-color: red;
+            width: 200px;
+        }
+        
+        a{
+            color: rgb(255, 0, 0);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            background-color: rgb(0, 0, 0);
+            text-decoration: underline;
+            
+        }
+
+        a:visited {
+            color: forestgreen;
+        }
+        a:active {
+            color: rgb(104, 58, 56);
+        }
+        a::before{
+            content: '>';
+            font-weight: normal;
+            
+        }
+        a::after {
+            color: darkgray;
+            content: ' [link]';
+            font-weight: normal;
+            text-decoration: none;
+        }
+        
+        .principal {
+            background-color: rgb(133, 61, 139);
+        }
+
+        p {
+            font-weight: bold;
+            text-decoration: none;
+            font-style: italic;
+            text-align: justify;
+        }
+        p:hover {
+            color: rgb(253, 253, 253);
+            background-color: rgb(19, 8, 8);
+            font-weight: normal;
+            text-decoration: underline;
+        }
+    
+    </style>
+</head>
+<body>
+    <h1>Teste</h1>
+    <div>01</div>
+    <div>02</div>
+    <div>03
+        <p>Frase Escondida ....</p>
+    </div>
+
+    <ol>
+        <li><a href="https://www.instagram.com/" class="principal">Acesse aqui</a></li>
+        <li><a href="https://www.youtube.com/c/CursoemV%C3%ADdeo">Acesse aqui</a></li>
+        <li><a href="https://www.cursoemvideo.com/">Acesse aqui</a></li>
+    </ol>
+    <p >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur tempore porro sunt obcaecati provident harum facilis sint nesciunt dolorem quisquam tempora adipisci, ipsa maiores eaque, explicabo minima non totam dolor.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus officia ab, cum sequi, ut reprehenderit repudiandae sunt numquam ducimus nulla, atque qui laudantium sapiente a eveniet unde suscipit quisquam illo?</p>
+</body>
+</html>
