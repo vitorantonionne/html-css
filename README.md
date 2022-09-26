@@ -1,4 +1,6 @@
-# <h2>Curso de HTML5 e CSS3</h2>
+# &#x1F4CC;html-css
+
+Curso de HTML5 e CSS3
 
 <ul>
 <li>O repositório trata-se dos meus estudos sobre html e css</li>
