@@ -1,4 +1,4 @@
-<h1>&#x1F4BB;learning&#x1F4BB;</h1>
+<h1 style="text-align: center;">&#x1F4BB;learning&#x1F4BB;</h1>
 
 <h2>&#x1F4CC;html-css</h2>
 
