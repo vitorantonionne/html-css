@@ -1,6 +1,6 @@
 <h1 style="text-align: center;">&#x1F4BB;learning&#x1F4BB;</h1>
 
-<h2>&#x1F4CC;html-css</h2>
+<h2 style="text-align: center;">&#x1F4CC;html-css</h2>
 
 Curso de HTML5 e CSS3
 
