@@ -49,12 +49,14 @@ header p > a:hover {
     text-decoration: underline;
 }
 
-main {
+section {
     text-align: left;
     padding: 30px;
     margin-top: 50px;
     font-family: var(--fontmain);
     font-size: 50px;
 }
+
+
 
 
