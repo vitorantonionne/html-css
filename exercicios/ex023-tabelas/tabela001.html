@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            width: 400px;
+            border-collapse: collapse;
+            border: 5px solid rgb(0, 255, 13);
+        }
+
+        td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        .linha {
+            background-color: lightgray;
+        }
+
+        .claro {
+            background-color: rgba(255, 0, 0, 0.479);
+        }
+         
+    </style>
+</head>
+<body>
+    <h1>Criando tabela</h1>
+   
+    <!--
+        HIERARQUIA DE TABELAS SIMPLES
+        Table=tabela
+            Table Row = linha de tabela
+                Table Header = cabeçalho de tabela
+                Table Data = dado da tabela
+    
+    -->
+    <table>
+        <tr class="linha">
+             <td>A1</td>
+             <td>A2</td>
+             <td>A3</td>
+        </tr>
+
+        <tr>
+            <td>B1</td>
+            <td class="claro">B2</td>
+            <td>B3</td>
+        </tr>
+
+        <tr>
+            <td>C1</td>
+            <td>C2</td>
+            <td>C3</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
