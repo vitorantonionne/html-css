@@ -39,7 +39,7 @@ header p {
     text-align: center;
 }
 
-header p > a {
+header p>a {
     color: white;
     text-decoration: none;
     font-weight: bold;
@@ -50,11 +50,26 @@ header p > a:hover {
 }
 
 section {
-    text-align: left;
-    padding: 30px;
+    line-height: 4em;
+    padding: 60px;
     margin-top: 50px;
     font-family: var(--fontmain);
-    font-size: 50px;
+}
+
+section p {
+    font-size: 45px;
+}
+
+section.frente {
+    background: black url('../imagens/background0.jpg') no-repeat fixed left top;
+    background-size: cover   ;
+    
+}
+
+.fundo {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.329);
+    width: 380px;
 }
 
 
