@@ -27,7 +27,7 @@ header {
 
 header h1 {
     font-family: var(--fontheader);
-    font-size: 60px;
+    font-size: 6vw;
     font-weight: normal;
     color: white;
     text-align: center;
@@ -52,7 +52,7 @@ header p > a:hover {
 section {
     line-height: 4em;
     padding: 60px;
-    margin-top: 50px;
+    margin-top: 30px;
     font-family: var(--fontmain);
 }
 
@@ -62,14 +62,35 @@ section p {
 
 section.frente {
     background: black url('../imagens/background0.jpg') no-repeat fixed left top;
-    background-size: cover   ;
-    
+    background-size: cover;
+    box-shadow: 2px 1px 7px 1px rgb(0 0 0 / 49%);
 }
 
 .fundo {
     color: white;
     background-color: rgba(0, 0, 0, 0.329);
     width: 380px;
+}
+
+footer {
+    font-family: var(--fontpadrao);
+    color: white;
+    background-color: black;
+    text-align: center;
+    border-radius: 1px 1px  1px 1px;
+    box-shadow: 1px -1px 4px 1px rgb(0 0 0 / 34%);
+    padding: 2px;
+}
+
+footer p > a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer p > a:hover {
+    text-decoration: underline;
+    
 }
 
 
