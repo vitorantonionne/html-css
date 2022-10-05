@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criando tabelas grandes</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        caption {
+            font-size: 1.2em;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 400px;
+        }
+        th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        .numero {
+            text-align: right;
+        }
+
+        thead , tfoot {
+            background-color: gray;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Criando tabelas grandes</h1>
+    <!--
+        Anatomia tabela grandes
+        TABLE
+            CAPTION
+
+            THEAD
+                TR(linha) , TH(cabeçalho) ,TD(dados)
+            TBODY
+                TR , TH ,TD
+            TFOOT
+                TR , TH ,TD
+    -->
+    <table>
+        <CAPTion>População Estados 2021</CAPTion>
+        <THead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 15px;" >População</th>
+            </tr>
+        </THead>
+
+        <TBOdy>
+            <tr>
+                <td>São Paulo</td>
+                <td class="numero">46 649 132</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="numero">21 411 923</td>
+            </tr>            
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="numero">17 463 349</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="numero">11 597 484</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="numero">9 674 793</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="numero">9 240 580</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td class="numero">8 777 124</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="numero">7 338 473</td>
+            </tr>
+        </TBOdy>
+
+        <TFOot>
+            <tr>
+                <th scope="row">total de Habitantes</th>
+                <td class="numero">0000</td>
+            </tr>
+        </TFOot>
+    </table>
+</body>
+</html>
