@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        td ,th {
+            border: 1px solid black;
+            padding: 8px;
+            width: 100px;
+        }
+
+        caption {
+            font-weight: bold;
+            font-size: 1.5em;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        .coluna {
+            background-color: lightgray;
+        }
+
+        .ccoluna {
+            background-color: lightcoral;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col class="ccoluna" span="2">
+            <col class="coluna">
+            <col class="coluna">
+        </colgroup>
+        <caption>Pesquisa</caption>
+      <tr>
+        <th scope="col">Nome</th>
+        <th scope="col">Sexo</th>
+        <th scope="col">Idade</th>
+        <th scope="col">Profissão</th>
+      </tr>
+      <tr>
+        <td>Maria</td>
+        <td>F</td>
+        <td>25</td>
+        <td>Enfermeira</td>
+      </tr>
+      <tr>
+        <td>Lucas</td>
+        <td>25</td>
+        <td>M</td>
+        <td>Advogado</td>
+      </tr>
+      <tr>
+        <td>Mateus</td>
+        <td>20</td>
+        <td>M</td>
+        <td>Eletricista</td>
+      </tr>
+      <tr>
+        <td>Luana</td>
+        <td>23</td>
+        <td>F</td>
+        <td>Medica</td>
+      </tr>
+      <tr>
+        <td>Maicon</td>
+        <td>26</td>
+        <td>M</td>
+        <td>Programador</td>
+      </tr>
+
+    </table>
+</body>
+</html>
