@@ -15,34 +15,40 @@
 <body>
     <h1>Testes</h1>
     <form action="cadastro.php" method="get" autocomplete="on">
-        <p>
-            <label for="inome">Nome</label>
-            <input type="text" name="nome" id="inome" maxlength="35" placeholder="seu nome" required>
-        </p>
+        <fieldset>
+            <legend>Teste</legend>
+            
+            <p>
+                <label for="inome">Nome</label>
+                <input type="text" name="nome" id="inome" maxlength="35" placeholder="seu nome" required>
+            </p>
 
-        <p>
-            <label for="imedia">Média</label>
-            <input type="number" name="media" id="imedia" placeholder="media" value="" step="0.1">
-        </p>
+            <p>
+                <label for="imedia">Média</label>
+                <input type="number" name="media" id="imedia" placeholder="media" value="" step="0.1">
+            </p>
 
-        <p>
-            <label for="imes">Periodo letivo</label>
-            <input type="month" name="mes" id="imes">
-        </p>
+            <p>
+                <label for="imes">Periodo letivo</label>
+                <input type="month" name="mes" id="imes">
+            </p>
 
-        <p>
-            <label for="idia">Dia da prova</label>
-            <input type="date" name="dia" id="idia" value="2022-10-12">
-        </p>
+            <p>
+                <label for="idia">Dia da prova</label>
+                <input type="date" name="dia" id="idia" value="2022-10-12">
+            </p>
 
-        <p>
-            <label for="ihora">Horario da prova</label>
-            <input type="time" name="hora" id="hora">
-        </p>
-        <p>
-            <input type="submit" value="Enviar">
-            <input type="reset" value="Limpar">
-        </p>
+            <p>
+                <label for="ihora">Horario da prova</label>
+                <input type="time" name="hora" id="hora">
+            </p>
+
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+
+        </fieldset>
     </form>
 </body>
 </html>
