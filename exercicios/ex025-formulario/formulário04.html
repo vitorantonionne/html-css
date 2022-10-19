@@ -7,6 +7,27 @@
     <title>Teste de formulários</title>
 </head>
 <body>
-    
+    <h1>Praticas</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <p>
+                <label for="inome">Nome</label>
+                <input type="text" name="nome" id="inome" required minlength="8" maxlength="35" >
+            </p>
+            <p>
+                <label for="imail">Email</label>
+                <input type="email" name="email" id="imail" autocomplete="email" required >
+            </p>
+            <p>
+                <label for="itelefone">Telefone</label>
+                <input type="tel" name="telefone" id="itelefone" required placeholder="(xx)xxxxx-xxxx" pattern="^\d{2}\d{4,5}\d{4}$">
+            </p>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+        </fieldset>
+    </form>
 </body>
 </html>
