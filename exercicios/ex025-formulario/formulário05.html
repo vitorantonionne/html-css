@@ -4,14 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulário</title>
+    <title>Formulário ch</title>
 </head>
 <body>
-    <form action="cadastro.php" method="get">
+    <form action="cadastro.php" method="get" autocomplete="on">
         <fieldset>
-            <legend>ola</legend>
-            
+            <legend>sexo</legend>
+            <input type="radio" name="sexo" id="isxmas" value="M" checked><label for="isxmas">Masculino</label> <br>
+            <input type="radio" name="sexo" id="isxfem" value="F"><label for="isxfem">Feminino</label>
+
+            <!-- Botão radio =Só pode escolher uma opção , colocar o mesmo NAME -->
         </fieldset>
+        <fieldset>
+            <legend>Esportes Favoritos</legend>
+               <input type="checkbox" name="futebol" id="ifutebol" checked><label for="ifutebol">Futebol</label> <br>
+               <input type="checkbox" name="futsal" id="ifutsal"><label for="ifutsal">Futsal</label> <br>
+               <input type="checkbox" name="volei" id="ivolei"><label for="ivolei">Volêi</label> <br>
+               <input type="checkbox" name="basquete" id="ibasquete"><label for="ibasquete">Basquete</label>
+               <!-- Botão checkbox= Pode selecionar varios e colocar varias checkds -->
+        </fieldset>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
     </form>
 </body>
 </html>
