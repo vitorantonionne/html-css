@@ -1,0 +1,10 @@
+@charset "UTF-08";
+
+*{
+    padding: 10px;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
+}
