@@ -1,12 +1,17 @@
 @charset "UTF-08";
 
-*{
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
+
+header {
+    background-color: lightgreen;
 }
 
-body {
-    padding: 10px;
-    margin: 10px;
+
+header h1 {
+    text-align: center;
+    font-weight: normal;
+}
+
+header  li {
+    display: inline-block;
+    margin: 5px;
 }
