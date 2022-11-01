@@ -1,2 +1,22 @@
 @charset "UTF-08";
 
+/* Para todas as telas */
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html , body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #233eff;background-size: contain;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color: green;
+}
