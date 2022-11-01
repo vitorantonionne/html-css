@@ -7,11 +7,11 @@
     <title>Formulários</title>
 </head>
 <body>
-    <form action="cadastro.php" method="get" autocomplete="on">
+    <form action="cadastro.php" method="post" autocomplete="on">
         <p>
             <label for="iest">Estado</label>
             <select name="estado" id="iest">
-                <option value="" selected>--Escolha--</option>
+                <option selected>--Escolha--</option>
                 <optgroup label="Região Nordeste/Norte">
                     <option value="CE">Ceára</option>
                     <option value="MA">Maranhão</option>
@@ -38,7 +38,7 @@
 
         <p>
             <label for="imensagem">Mensagem: </label>
-            <textarea name="mensagem" id="imensagem" cols="30" rows="10" maxlength="10"></textarea>
+            <textarea name="mensagem" id="imensagem" cols="30" rows="10" maxlength="10" placeholder="Escreva sua mensagem..."></textarea>
         </p>
 
         <p>
