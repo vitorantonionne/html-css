@@ -6,25 +6,25 @@
     box-sizing: border-box;
 }
 
-#black,
+.black,
 :root {
     --bg-color: rgb(27, 26, 26);
     --text-color: white;
 }
 
-#blue,
+.blue,
 :root:has(#blue:checked) {
     --bg-color: rgb(25, 25, 192);
     --text-color: white;
 }
 
-#green,
+.green,
 :root:has(#green:checked) {
     --bg-color: rgb(24, 158, 24);
     --text-color: white;
 }
 
-#yellow,
+.yellow,
 :root:has(#yellow:checked) {
     --bg-color: rgb(202, 202, 44);
     --text-color: white;
