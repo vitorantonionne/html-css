@@ -6,11 +6,30 @@
     box-sizing: border-box;
 }
 
-#dark,
+#black,
 :root {
-    --bg-color : white;
-    --text-color : #121214;
+    --bg-color: rgb(27, 26, 26);
+    --text-color: white;
 }
+
+#blue,
+:root:has(#blue:checked) {
+    --bg-color: rgb(25, 25, 192);
+    --text-color: white;
+}
+
+#green,
+:root:has(#green:checked) {
+    --bg-color: rgb(24, 158, 24);
+    --text-color: white;
+}
+
+#yellow,
+:root:has(#yellow:checked) {
+    --bg-color: rgb(202, 202, 44);
+    --text-color: white;
+}
+
 
 body {
     font-family: Arial, Helvetica, sans-serif;
