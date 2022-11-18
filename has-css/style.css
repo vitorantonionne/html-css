@@ -1,0 +1,40 @@
+@charset "UTF-08";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+article {
+    width: 30rem;
+    margin: 2rem auto;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+    list-style-type: none;
+    box-shadow: 1px 0px 2px 1px rgba(0, 0, 0, 0.24);
+    padding: 15px;
+    border-radius: 5px;
+
+    position: fixed;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+input[type="radio"] {
+    appearance: none;
+    border: 2px solid black;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}     
+
+input[type="radio"]:checked {
+    background-color: black;
+}
