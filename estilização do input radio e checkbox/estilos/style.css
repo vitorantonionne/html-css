@@ -9,8 +9,7 @@
 }
 
 :root {
-    --family-font: 'Libre Baskerville', serif;
-    --family-fonth: 'Poppins', sans-serif;
+
     --color-back: #DFEBEB ;
 }
 
@@ -19,6 +18,7 @@ html {
 }
 
 body {
+    font-family: 'Poppins', sans-serif;
     background-color: var(--color-back);
 }
 
@@ -30,11 +30,12 @@ section {
 }
 
 section > h2 {
-    font-family: var(--family-fonth);
+    font-family: 'Libre Baskerville', serif;
+    font-size: 32px;
 }
 
 .radi {
-    font-family: var(--family-font);
+    font-family: 'Poppins', sans-serif;
     font-weight: bold;
     color: rgb(21, 21, 43);
 }
