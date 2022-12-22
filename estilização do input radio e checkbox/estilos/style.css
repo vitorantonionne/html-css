@@ -9,7 +9,7 @@
 }
 
 :root {
-
+    --color-text: #10131c;
     --color-back: #DFEBEB ;
 }
 
@@ -20,22 +20,48 @@ html {
 body {
     font-family: 'Poppins', sans-serif;
     background-color: var(--color-back);
+    color: var(--color-text);
 }
 
 section {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
     background-color: white;
+    width: 730px;
+    margin: auto;
 
     margin-top: 50px;
+    padding: 50px;
+
+    border-radius: 25px;
     
 }
 
-section > h2 {
+section > p#Title {
     font-family: 'Libre Baskerville', serif;
-    font-size: 32px;
+    font-size: 30px;
+    margin-bottom: 20px;
 }
 
-.radi {
+section > div >label.radi {
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
-    color: rgb(21, 21, 43);
+}
+
+section > div.text {
+    text-indent: 10px;
+    padding: 10px;
+    background-color: rgba(173, 216, 230, 0.199);
+    box-shadow: rgba(0, 0, 0, 0.185) 0px 0px 3px 1px;
+}
+
+div.text > p {
+    margin-left: 17px;
+}
+
+#textend {
+    padding: 15px;
+    
 }
