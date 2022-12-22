@@ -1,0 +1,40 @@
+@charset "UTF-08";
+
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --family-font: 'Libre Baskerville', serif;
+    --family-fonth: 'Poppins', sans-serif;
+    --color-back: #DFEBEB ;
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+    background-color: var(--color-back);
+}
+
+section {
+    background-color: white;
+
+    margin-top: 50px;
+    
+}
+
+section > h2 {
+    font-family: var(--family-fonth);
+}
+
+.radi {
+    font-family: var(--family-font);
+    font-weight: bold;
+    color: rgb(21, 21, 43);
+}
