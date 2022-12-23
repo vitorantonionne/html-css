@@ -1,7 +1,6 @@
 @charset "UTF-08";
 
 
-
 * {
     margin: 0px;
     padding: 0px;
@@ -47,7 +46,6 @@ section {
     padding: 2.7rem;
 
     border-radius: 2rem;
-    
 }
 
 section > p#Title {
@@ -70,13 +68,12 @@ section > div.text {
 div.text > p {
     font-weight: bold;
     margin-left: 1.1rem;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
 }
 
 #textend {
     margin-top: 1rem;
     margin-left: 1rem;
     font-weight: bold;
-    font-size: 0.8rem;
-    
+    font-size: 0.7rem;
 }
