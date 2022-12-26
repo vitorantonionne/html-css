@@ -19,7 +19,6 @@ html {
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
     background-color: var(--color-back);
     color: var(--color-text);
 
@@ -31,6 +30,10 @@ body {
     para quando tiver apenas um elemento como filho do BODY
 
     body/section  */
+}
+
+body * {
+    font-family: 'Poppins', sans-serif;
 }
 
 section {
@@ -46,6 +49,7 @@ section {
     padding: 2.7rem;
 
     border-radius: 2rem;
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.062);
 }
 
 section > p#Title {
@@ -62,9 +66,17 @@ section > div >label.radi {
 section > div.text {
     padding: 10px;
     background-color: rgba(173, 216, 230, 0.199);
+    border: 1px solid #e8f0f0;
     box-shadow: rgba(0, 0, 0, 0.185) 0px 0px 3px 1px;
 }
 
+div.text input[type="radio"] {
+    appearance: none;
+
+    border: 1px solid #BBC1C1;
+    
+    border-radius: 50%;
+}
 div.text > p {
     font-weight: bold;
     margin-left: 1.1rem;
@@ -76,4 +88,24 @@ div.text > p {
     margin-left: 1rem;
     font-weight: bold;
     font-size: 0.7rem;
+}
+
+button {
+    color: white;
+    background-color: #130f28;
+
+    font-weight: bold;
+    margin-left: 4.3rem;
+    margin-top: 1.5rem;
+
+    width: 18rem;
+    height: 2.6rem;
+
+    border: none;
+}
+
+small {
+    text-align: center;
+
+    font: 0.7rem;
 }
